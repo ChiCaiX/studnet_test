@@ -1,0 +1,105 @@
+{
+  "uid" : "2d80f009c27b3355",
+  "name" : "test_delete_department_001[T01：空-T00S11-detail-未找到。-404]",
+  "fullName" : "scripts.test3_deleteDepart.Test_deleteDepartment#test_delete_department_001",
+  "historyId" : "665313a948e35657c1ee771cd1cfaceb",
+  "time" : {
+    "start" : 1672040500509,
+    "stop" : 1672040500524,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_deleteDepartment",
+    "time" : {
+      "start" : 1672040500480,
+      "stop" : 1672040500480,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_deleteDepartment::0",
+    "time" : {
+      "start" : 1672040500538,
+      "stop" : 1672040500539,
+      "duration" : 1
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test3_deleteDepart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_deleteDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2UM9TH6"
+  }, {
+    "name" : "thread",
+    "value" : "20280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test3_deleteDepart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dep_id",
+    "value" : "'T00S11'"
+  }, {
+    "name" : "res_key",
+    "value" : "'detail'"
+  }, {
+    "name" : "res_value",
+    "value" : "'未找到。'"
+  }, {
+    "name" : "status_code",
+    "value" : "404"
+  }, {
+    "name" : "title",
+    "value" : "'T01：空'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2d80f009c27b3355.json",
+  "parameterValues" : [ "'T00S11'", "'detail'", "'未找到。'", "404", "'T01：空'" ]
+}

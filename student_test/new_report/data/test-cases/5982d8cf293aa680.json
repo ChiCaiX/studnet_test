@@ -1,0 +1,108 @@
+{
+  "uid" : "5982d8cf293aa680",
+  "name" : "test_update_department_001[master_name含有特殊字符-T2009N-req_data6-master_name-Master209#$%%-200]",
+  "fullName" : "scripts.test2_updateDepart.Test_updateDepartment#test_update_department_001",
+  "historyId" : "5ec44ba6c2f83298edb0b18e7592be91",
+  "time" : {
+    "start" : 1672040500343,
+    "stop" : 1672040500363,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_updateDepartment",
+    "time" : {
+      "start" : 1672040500158,
+      "stop" : 1672040500190,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_updateDepartment::0",
+    "time" : {
+      "start" : 1672040500450,
+      "stop" : 1672040500476,
+      "duration" : 26
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test2_updateDepart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_updateDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2UM9TH6"
+  }, {
+    "name" : "thread",
+    "value" : "20280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test2_updateDepart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dep_id",
+    "value" : "'T2009N'"
+  }, {
+    "name" : "req_data",
+    "value" : "{'data': [{'dep_id': 'T2009N', 'dep_name': 'Test209学院', 'master_name': 'Master209#$%%', 'slogan': 'Slogan209'}]}"
+  }, {
+    "name" : "res_key",
+    "value" : "'master_name'"
+  }, {
+    "name" : "res_value",
+    "value" : "'Master209#$%%'"
+  }, {
+    "name" : "status_code",
+    "value" : "200"
+  }, {
+    "name" : "title",
+    "value" : "'master_name含有特殊字符'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5982d8cf293aa680.json",
+  "parameterValues" : [ "'T2009N'", "{'data': [{'dep_id': 'T2009N', 'dep_name': 'Test209学院', 'master_name': 'Master209#$%%', 'slogan': 'Slogan209'}]}", "'master_name'", "'Master209#$%%'", "200", "'master_name含有特殊字符'" ]
+}

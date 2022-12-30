@@ -1,0 +1,108 @@
+{
+  "uid" : "4837591c1795b865",
+  "name" : "test_update_department_001[dep_name含有特殊字符-T2008N-req_data5-dep_name-Test208学院@#$!-200]",
+  "fullName" : "scripts.test2_updateDepart.Test_updateDepartment#test_update_department_001",
+  "historyId" : "2164fe4163a4d8f2dd3cb471598c95ec",
+  "time" : {
+    "start" : 1672040500316,
+    "stop" : 1672040500336,
+    "duration" : 20
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_updateDepartment",
+    "time" : {
+      "start" : 1672040500158,
+      "stop" : 1672040500190,
+      "duration" : 32
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_updateDepartment::0",
+    "time" : {
+      "start" : 1672040500450,
+      "stop" : 1672040500476,
+      "duration" : 26
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test2_updateDepart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_updateDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2UM9TH6"
+  }, {
+    "name" : "thread",
+    "value" : "20280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test2_updateDepart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "dep_id",
+    "value" : "'T2008N'"
+  }, {
+    "name" : "req_data",
+    "value" : "{'data': [{'dep_id': 'T2008N', 'dep_name': 'Test208学院@#$!', 'master_name': 'Master208', 'slogan': 'Slogan208'}]}"
+  }, {
+    "name" : "res_key",
+    "value" : "'dep_name'"
+  }, {
+    "name" : "res_value",
+    "value" : "'Test208学院@#$!'"
+  }, {
+    "name" : "status_code",
+    "value" : "200"
+  }, {
+    "name" : "title",
+    "value" : "'dep_name含有特殊字符'"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4837591c1795b865.json",
+  "parameterValues" : [ "'T2008N'", "{'data': [{'dep_id': 'T2008N', 'dep_name': 'Test208学院@#$!', 'master_name': 'Master208', 'slogan': 'Slogan208'}]}", "'dep_name'", "'Test208学院@#$!'", "200", "'dep_name含有特殊字符'" ]
+}

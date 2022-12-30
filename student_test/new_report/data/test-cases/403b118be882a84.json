@@ -1,0 +1,102 @@
+{
+  "uid" : "403b118be882a84",
+  "name" : "test_add_department[req_data8-already_exist-0-201]",
+  "fullName" : "scripts.test1_AddDepart.Test_AddDepartment#test_add_department",
+  "historyId" : "54990e6de03de9b1a6e7d576652c2470",
+  "time" : {
+    "start" : 1672040499955,
+    "stop" : 1672040499981,
+    "duration" : 26
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_AddDepartment",
+    "time" : {
+      "start" : 1672040499676,
+      "stop" : 1672040499686,
+      "duration" : 10
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_xunit_setup_class_fixture_Test_AddDepartment::0",
+    "time" : {
+      "start" : 1672040500145,
+      "stop" : 1672040500153,
+      "duration" : 8
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "scripts"
+  }, {
+    "name" : "suite",
+    "value" : "test1_AddDepart"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_AddDepartment"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-2UM9TH6"
+  }, {
+    "name" : "thread",
+    "value" : "20280-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "scripts.test1_AddDepart"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "req_data",
+    "value" : "{'data': [{'dep_id': 'T091', 'dep_name': 'T08学院$%^', 'master_name': 'T09Master', 'slogan': ''}]}"
+  }, {
+    "name" : "req_key",
+    "value" : "'already_exist'"
+  }, {
+    "name" : "req_value",
+    "value" : "0"
+  }, {
+    "name" : "status_code",
+    "value" : "201"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "403b118be882a84.json",
+  "parameterValues" : [ "{'data': [{'dep_id': 'T091', 'dep_name': 'T08学院$%^', 'master_name': 'T09Master', 'slogan': ''}]}", "'already_exist'", "0", "201" ]
+}

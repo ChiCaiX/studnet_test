@@ -1,0 +1,28 @@
+[
+  {
+    "test_delete_department_001": {
+      "title": "T01：为存在且格式正确",
+      "dep_id": "T2010N",
+      "status_code": 204,
+      "res_key": "",
+      "res_value": ""
+    }
+  },
+  {
+    "test_delete_department_002": {
+      "title": "T01：空",
+      "dep_id": "T00S11",
+      "status_code": 404,
+      "res_key": "detail",
+      "res_value":"未找到。"
+    }
+  },{
+    "test_delete_department_003": {
+      "title": "T01：为不存在",
+      "dep_id": "",
+      "status_code": 404,
+      "res_key": "detail",
+      "res_value":"未找到。"
+    }
+  }
+]

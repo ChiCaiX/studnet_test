@@ -1,7 +1,7 @@
 from student_test.common.logger import write_log
 from student_test.config import PROJECT_DIR
 import sqlite3
-URL = "D:\chicaixiang\auto-test\Interface test\student\student_env\studentManagementSystem\db.sqlite3"
+URL = "D:\student_test\student_env\studentManagementSystem\db.sqlite3"
 
 def execute_db(sql):
 

@@ -1,8 +1,13 @@
 .idea
+__pycache__
+student_test/__pycache__/
+student_test/common/__pycache__/
+student_test/scripts/__pycache__/
+PyTest/.pytest_cache
 student_test/.pytest_cache
-student_test/.idea
-student_test/logs
+student_test/common/wrapers.py
+student_test/scripts/.pytest_cache
+student_test/项目文档
 student_test/temp
-student_env/.idea
-student_test/report/
 student_test/new_report
+student_test/report

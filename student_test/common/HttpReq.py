@@ -3,17 +3,17 @@ import json
 import requests
 
 from student_test.common.logger import write_log
-
+from student_test.config import URL
 
 class HttpReq(object):
     def __init__(self):
         self.headers = {"Content-Type": "application/json",
                         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/90.0.4430.212 Safari/537.36"
                         }
-        self.add_url = "http://127.0.0.1:8099/api/departments/"
-        self.update_url = "http://127.0.0.1:8099/api/departments/{}/"
-        self.delete_url = "http://127.0.0.1:8099/api/departments/{}/"
-        self.select_url ="http://127.0.0.1:8099/api/departments/{}"
+        self.add_url = URL
+        self.update_url = "http://172.16.88.36:8099/api/departments/{}/"
+        self.delete_url = "http://172.16.88.36:8099/api/departments/{}/"
+        self.select_url ="http://172.16.88.36:8099/api/departments/{}"
 
 
 

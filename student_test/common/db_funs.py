@@ -1,3 +1,5 @@
+import os
+
 from student_test.common.logger import write_log
 from student_test.config import PROJECT_DIR
 import sqlite3
@@ -12,7 +14,8 @@ def execute_db(sql):
     :return:
     """
     try:
-        conn = sqlite3.connect("{0}\\studentManagementSystem\\db.sqlite3".format(PROJECT_DIR))
+        url = PROJECT_DIR + os.sep + "studentManagementSystem" + os.sep + "db.sqlite3"
+        conn = sqlite3.connect(url)
         # conn = sqlite3.connect(r"D:\chicaixiang\auto-test\Interface test\student\student_env\studentManagementSystem\db.sqlite3")
         # 新建游标
         cursor = conn.cursor()
@@ -74,3 +77,5 @@ if __name__ == '__main__':
     # count_db()
     # insert_db()
     print("{0}\\studentManagementSystem\\db.sqlite3".format(PROJECT_DIR))
+
+    # print(url)

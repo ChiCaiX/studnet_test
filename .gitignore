@@ -4,5 +4,5 @@ student_test/.idea
 student_test/logs
 student_test/temp
 student_env/.idea
-student_test/report
+student_test/report/
 student_test/new_report

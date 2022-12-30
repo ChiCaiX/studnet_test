@@ -69,7 +69,8 @@ def insert_db():
          "('T2010N','Test210学院','Master210','Slogan210')"
     execute_db(sql)
 if __name__ == '__main__':
-    # init_db()
+    init_db()
     # query_db("dep_id","T02","T03")
     # count_db()
-    insert_db()
+    # insert_db()
+    print("{0}\\studentManagementSystem\\db.sqlite3".format(PROJECT_DIR))
